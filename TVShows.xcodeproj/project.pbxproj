@@ -7,16 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF6BF62C27065EFD00500382 /* FavoritesTVShows+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF62827065D8800500382 /* FavoritesTVShows+CoreDataClass.swift */; };
+		CF6BF62D27065EFD00500382 /* FavoritesTVShows+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF62927065D8800500382 /* FavoritesTVShows+CoreDataProperties.swift */; };
+		CF6BF6302706751000500382 /* FavoritesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF62F2706751000500382 /* FavoritesInteractor.swift */; };
+		CF6BF6332706763200500382 /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF6322706763200500382 /* FavoritesPresenter.swift */; };
+		CF6BF636270678FC00500382 /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF635270678FC00500382 /* FavoritesRouter.swift */; };
+		CF6BF63A27077DBB00500382 /* TVShowDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF63927077DBB00500382 /* TVShowDetailRouter.swift */; };
+		CF6BF63D27077F7300500382 /* TVShowDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF63C27077F7300500382 /* TVShowDetailInteractor.swift */; };
+		CF6BF6402707816900500382 /* TVShowDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF63F2707816900500382 /* TVShowDetailPresenter.swift */; };
+		CF6BF644270787D900500382 /* TVShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF642270787D900500382 /* TVShowDetailViewController.swift */; };
+		CF6BF645270787D900500382 /* TVShowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6BF643270787D900500382 /* TVShowDetailViewController.xib */; };
+		CF6BF6472707B11800500382 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF6462707B11800500382 /* UIView+Extension.swift */; };
+		CF6BF64A2708397100500382 /* GlobalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6BF6492708397100500382 /* GlobalDataManager.swift */; };
 		CFD3443C2704E7B300EDDB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3443B2704E7B300EDDB54 /* AppDelegate.swift */; };
-		CFD3443E2704E7B300EDDB54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3443D2704E7B300EDDB54 /* SceneDelegate.swift */; };
-		CFD344402704E7B300EDDB54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3443F2704E7B300EDDB54 /* ViewController.swift */; };
-		CFD344432704E7B300EDDB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD344412704E7B300EDDB54 /* Main.storyboard */; };
 		CFD344462704E7B300EDDB54 /* TVShows.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFD344442704E7B300EDDB54 /* TVShows.xcdatamodeld */; };
 		CFD344482704E7B600EDDB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD344472704E7B600EDDB54 /* Assets.xcassets */; };
 		CFD3444B2704E7B600EDDB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD344492704E7B600EDDB54 /* LaunchScreen.storyboard */; };
 		CFD344562704E7B600EDDB54 /* TVShowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344552704E7B600EDDB54 /* TVShowsTests.swift */; };
 		CFD344602704E7B600EDDB54 /* TVShowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3445F2704E7B600EDDB54 /* TVShowsUITests.swift */; };
 		CFD344622704E7B600EDDB54 /* TVShowsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344612704E7B600EDDB54 /* TVShowsUITestsLaunchTests.swift */; };
+		CFD344732705237100EDDB54 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344722705237100EDDB54 /* TabBarViewController.swift */; };
+		CFD3447D2705340300EDDB54 /* TVShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3447B2705340300EDDB54 /* TVShowsViewController.swift */; };
+		CFD3447E2705340300EDDB54 /* TVShowsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD3447C2705340300EDDB54 /* TVShowsViewController.xib */; };
+		CFD34482270534DD00EDDB54 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD34480270534DD00EDDB54 /* FavoritesViewController.swift */; };
+		CFD34483270534DD00EDDB54 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD34481270534DD00EDDB54 /* FavoritesViewController.xib */; };
+		CFD3448727053BB800EDDB54 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3448627053BB800EDDB54 /* UIColor+Extension.swift */; };
+		CFD3448A2705EE5A00EDDB54 /* TVSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344892705EE5A00EDDB54 /* TVSNavigationController.swift */; };
+		CFD344902705F19700EDDB54 /* TVMazeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3448F2705F19700EDDB54 /* TVMazeApi.swift */; };
+		CFD344952705F47500EDDB54 /* TVShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344932705F47500EDDB54 /* TVShowTableViewCell.swift */; };
+		CFD344962705F47500EDDB54 /* TVShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD344942705F47500EDDB54 /* TVShowTableViewCell.xib */; };
+		CFD344982706118C00EDDB54 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344972706118C00EDDB54 /* CoreDataManager.swift */; };
+		CFD3449B270611CB00EDDB54 /* APiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3449A270611CB00EDDB54 /* APiCaller.swift */; };
+		CFD3449E27061CF400EDDB54 /* TVShowsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3449D27061CF400EDDB54 /* TVShowsPresenter.swift */; };
+		CFD344A127061DEB00EDDB54 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344A027061DEB00EDDB54 /* TVShow.swift */; };
+		CFD344A42706391500EDDB54 /* TVShowsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344A32706391500EDDB54 /* TVShowsInteractor.swift */; };
+		CFD344A727063F9D00EDDB54 /* TVShowsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD344A627063F9D00EDDB54 /* TVShowsRouter.swift */; };
+		CFDCE4992708694E00DFE58E /* COMMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = CFDCE4982708694E00DFE58E /* COMMENTS.txt */; };
+		CFDDCBA627064CF5003307A8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CFDDCBA527064CF5003307A8 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF6BF62827065D8800500382 /* FavoritesTVShows+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesTVShows+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CF6BF62927065D8800500382 /* FavoritesTVShows+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesTVShows+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CF6BF62F2706751000500382 /* FavoritesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesInteractor.swift; sourceTree = "<group>"; };
+		CF6BF6322706763200500382 /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
+		CF6BF635270678FC00500382 /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		CF6BF63927077DBB00500382 /* TVShowDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailRouter.swift; sourceTree = "<group>"; };
+		CF6BF63C27077F7300500382 /* TVShowDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailInteractor.swift; sourceTree = "<group>"; };
+		CF6BF63F2707816900500382 /* TVShowDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailPresenter.swift; sourceTree = "<group>"; };
+		CF6BF642270787D900500382 /* TVShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailViewController.swift; sourceTree = "<group>"; };
+		CF6BF643270787D900500382 /* TVShowDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVShowDetailViewController.xib; sourceTree = "<group>"; };
+		CF6BF6462707B11800500382 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CF6BF6492708397100500382 /* GlobalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDataManager.swift; sourceTree = "<group>"; };
 		CFD344382704E7B300EDDB54 /* TVShows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVShows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD3443B2704E7B300EDDB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFD3443D2704E7B300EDDB54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFD3443F2704E7B300EDDB54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFD344422704E7B300EDDB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFD344452704E7B300EDDB54 /* TVShows.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVShows.xcdatamodel; sourceTree = "<group>"; };
 		CFD344472704E7B600EDDB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD3444A2704E7B600EDDB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +87,23 @@
 		CFD3445B2704E7B600EDDB54 /* TVShowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVShowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD3445F2704E7B600EDDB54 /* TVShowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsUITests.swift; sourceTree = "<group>"; };
 		CFD344612704E7B600EDDB54 /* TVShowsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFD344722705237100EDDB54 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CFD3447B2705340300EDDB54 /* TVShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsViewController.swift; sourceTree = "<group>"; };
+		CFD3447C2705340300EDDB54 /* TVShowsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVShowsViewController.xib; sourceTree = "<group>"; };
+		CFD34480270534DD00EDDB54 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		CFD34481270534DD00EDDB54 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		CFD3448627053BB800EDDB54 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CFD344892705EE5A00EDDB54 /* TVSNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSNavigationController.swift; sourceTree = "<group>"; };
+		CFD3448F2705F19700EDDB54 /* TVMazeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMazeApi.swift; sourceTree = "<group>"; };
+		CFD344932705F47500EDDB54 /* TVShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowTableViewCell.swift; sourceTree = "<group>"; };
+		CFD344942705F47500EDDB54 /* TVShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVShowTableViewCell.xib; sourceTree = "<group>"; };
+		CFD344972706118C00EDDB54 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CFD3449A270611CB00EDDB54 /* APiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APiCaller.swift; sourceTree = "<group>"; };
+		CFD3449D27061CF400EDDB54 /* TVShowsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsPresenter.swift; sourceTree = "<group>"; };
+		CFD344A027061DEB00EDDB54 /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
+		CFD344A32706391500EDDB54 /* TVShowsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsInteractor.swift; sourceTree = "<group>"; };
+		CFD344A627063F9D00EDDB54 /* TVShowsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsRouter.swift; sourceTree = "<group>"; };
+		CFDCE4982708694E00DFE58E /* COMMENTS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = COMMENTS.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDDCBA627064CF5003307A8 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +132,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF6BF62E270674EB00500382 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF62F2706751000500382 /* FavoritesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CF6BF6312706762100500382 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF6322706763200500382 /* FavoritesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CF6BF634270678F100500382 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF635270678FC00500382 /* FavoritesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CF6BF63727077DA200500382 /* TVShowDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF641270787B600500382 /* View */,
+				CF6BF63E2707815700500382 /* Presenter */,
+				CF6BF63B27077F4C00500382 /* Interactor */,
+				CF6BF63827077DB000500382 /* Router */,
+			);
+			path = TVShowDetail;
+			sourceTree = "<group>";
+		};
+		CF6BF63827077DB000500382 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF63927077DBB00500382 /* TVShowDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CF6BF63B27077F4C00500382 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF63C27077F7300500382 /* TVShowDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CF6BF63E2707815700500382 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF63F2707816900500382 /* TVShowDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CF6BF641270787B600500382 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF642270787D900500382 /* TVShowDetailViewController.swift */,
+				CF6BF643270787D900500382 /* TVShowDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF6BF6482708395D00500382 /* GlobalDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF6492708397100500382 /* GlobalDataManager.swift */,
+			);
+			path = GlobalDataManager;
+			sourceTree = "<group>";
+		};
 		CFD3442F2704E7B300EDDB54 = {
 			isa = PBXGroup;
 			children = (
+				CFDCE4982708694E00DFE58E /* COMMENTS.txt */,
 				CFD3443A2704E7B300EDDB54 /* TVShows */,
 				CFD344542704E7B600EDDB54 /* TVShowsTests */,
 				CFD3445E2704E7B600EDDB54 /* TVShowsUITests */,
@@ -101,14 +232,13 @@
 		CFD3443A2704E7B300EDDB54 /* TVShows */ = {
 			isa = PBXGroup;
 			children = (
-				CFD3443B2704E7B300EDDB54 /* AppDelegate.swift */,
-				CFD3443D2704E7B300EDDB54 /* SceneDelegate.swift */,
-				CFD3443F2704E7B300EDDB54 /* ViewController.swift */,
-				CFD344412704E7B300EDDB54 /* Main.storyboard */,
+				CFD3448C2705F12700EDDB54 /* Managers */,
+				CFD3448427053B9B00EDDB54 /* Resources */,
+				CFD3446F2705230300EDDB54 /* Modules */,
+				CFD3446E270522F300EDDB54 /* App */,
 				CFD344472704E7B600EDDB54 /* Assets.xcassets */,
 				CFD344492704E7B600EDDB54 /* LaunchScreen.storyboard */,
 				CFD3444C2704E7B600EDDB54 /* Info.plist */,
-				CFD344442704E7B300EDDB54 /* TVShows.xcdatamodeld */,
 			);
 			path = TVShows;
 			sourceTree = "<group>";
@@ -130,6 +260,196 @@
 			path = TVShowsUITests;
 			sourceTree = "<group>";
 		};
+		CFD3446E270522F300EDDB54 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3443B2704E7B300EDDB54 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CFD3446F2705230300EDDB54 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF63727077DA200500382 /* TVShowDetail */,
+				CFD3447527052A1300EDDB54 /* Favorites */,
+				CFD34474270529FC00EDDB54 /* TVShows */,
+				CFD344702705231F00EDDB54 /* TabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CFD344702705231F00EDDB54 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344712705233900EDDB54 /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CFD344712705233900EDDB54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344722705237100EDDB54 /* TabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFD34474270529FC00EDDB54 /* TVShows */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344A527063F8A00EDDB54 /* Router */,
+				CFD344A2270638FA00EDDB54 /* Interactor */,
+				CFD3449F27061DD700EDDB54 /* Entity */,
+				CFD3449C27061CE000EDDB54 /* Presenter */,
+				CFD3447627052B8400EDDB54 /* View */,
+			);
+			path = TVShows;
+			sourceTree = "<group>";
+		};
+		CFD3447527052A1300EDDB54 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF634270678F100500382 /* Router */,
+				CF6BF6312706762100500382 /* Presenter */,
+				CF6BF62E270674EB00500382 /* Interactor */,
+				CFD3447F270534C900EDDB54 /* View */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		CFD3447627052B8400EDDB54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3447B2705340300EDDB54 /* TVShowsViewController.swift */,
+				CFD3447C2705340300EDDB54 /* TVShowsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFD3447F270534C900EDDB54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFD34480270534DD00EDDB54 /* FavoritesViewController.swift */,
+				CFD34481270534DD00EDDB54 /* FavoritesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFD3448427053B9B00EDDB54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344882705EBE500EDDB54 /* Widgets */,
+				CFD3448527053BA300EDDB54 /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFD3448527053BA300EDDB54 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3448627053BB800EDDB54 /* UIColor+Extension.swift */,
+				CF6BF6462707B11800500382 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFD344882705EBE500EDDB54 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344922705F44600EDDB54 /* Cells */,
+				CFD344892705EE5A00EDDB54 /* TVSNavigationController.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		CFD3448B2705F11500EDDB54 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344992706119D00EDDB54 /* APICaller */,
+				CFD3448E2705F18100EDDB54 /* Config */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CFD3448C2705F12700EDDB54 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF6482708395D00500382 /* GlobalDataManager */,
+				CFD3448D2705F13600EDDB54 /* CoreData */,
+				CFD3448B2705F11500EDDB54 /* Network */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CFD3448D2705F13600EDDB54 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CF6BF62827065D8800500382 /* FavoritesTVShows+CoreDataClass.swift */,
+				CF6BF62927065D8800500382 /* FavoritesTVShows+CoreDataProperties.swift */,
+				CFD344972706118C00EDDB54 /* CoreDataManager.swift */,
+				CFD344442704E7B300EDDB54 /* TVShows.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CFD3448E2705F18100EDDB54 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3448F2705F19700EDDB54 /* TVMazeApi.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CFD344922705F44600EDDB54 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344932705F47500EDDB54 /* TVShowTableViewCell.swift */,
+				CFD344942705F47500EDDB54 /* TVShowTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CFD344992706119D00EDDB54 /* APICaller */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3449A270611CB00EDDB54 /* APiCaller.swift */,
+			);
+			path = APICaller;
+			sourceTree = "<group>";
+		};
+		CFD3449C27061CE000EDDB54 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3449D27061CF400EDDB54 /* TVShowsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CFD3449F27061DD700EDDB54 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344A027061DEB00EDDB54 /* TVShow.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CFD344A2270638FA00EDDB54 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344A32706391500EDDB54 /* TVShowsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CFD344A527063F8A00EDDB54 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CFD344A627063F9D00EDDB54 /* TVShowsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +466,9 @@
 			dependencies = (
 			);
 			name = TVShows;
+			packageProductDependencies = (
+				CFDDCBA527064CF5003307A8 /* SDWebImage */,
+			);
 			productName = TVShows;
 			productReference = CFD344382704E7B300EDDB54 /* TVShows.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +541,9 @@
 				Base,
 			);
 			mainGroup = CFD3442F2704E7B300EDDB54;
+			packageReferences = (
+				CFDDCBA427064CF5003307A8 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CFD344392704E7B300EDDB54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,8 +561,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD3444B2704E7B600EDDB54 /* LaunchScreen.storyboard in Resources */,
+				CFDCE4992708694E00DFE58E /* COMMENTS.txt in Resources */,
 				CFD344482704E7B600EDDB54 /* Assets.xcassets in Resources */,
-				CFD344432704E7B300EDDB54 /* Main.storyboard in Resources */,
+				CFD34483270534DD00EDDB54 /* FavoritesViewController.xib in Resources */,
+				CFD344962705F47500EDDB54 /* TVShowTableViewCell.xib in Resources */,
+				CF6BF645270787D900500382 /* TVShowDetailViewController.xib in Resources */,
+				CFD3447E2705340300EDDB54 /* TVShowsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +591,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD344402704E7B300EDDB54 /* ViewController.swift in Sources */,
+				CF6BF644270787D900500382 /* TVShowDetailViewController.swift in Sources */,
+				CF6BF636270678FC00500382 /* FavoritesRouter.swift in Sources */,
+				CF6BF62C27065EFD00500382 /* FavoritesTVShows+CoreDataClass.swift in Sources */,
+				CF6BF62D27065EFD00500382 /* FavoritesTVShows+CoreDataProperties.swift in Sources */,
+				CFD344A127061DEB00EDDB54 /* TVShow.swift in Sources */,
+				CF6BF6332706763200500382 /* FavoritesPresenter.swift in Sources */,
+				CFD344A42706391500EDDB54 /* TVShowsInteractor.swift in Sources */,
+				CFD3447D2705340300EDDB54 /* TVShowsViewController.swift in Sources */,
+				CFD344952705F47500EDDB54 /* TVShowTableViewCell.swift in Sources */,
+				CFD344732705237100EDDB54 /* TabBarViewController.swift in Sources */,
+				CFD344A727063F9D00EDDB54 /* TVShowsRouter.swift in Sources */,
 				CFD3443C2704E7B300EDDB54 /* AppDelegate.swift in Sources */,
+				CFD344982706118C00EDDB54 /* CoreDataManager.swift in Sources */,
+				CFD344902705F19700EDDB54 /* TVMazeApi.swift in Sources */,
+				CF6BF64A2708397100500382 /* GlobalDataManager.swift in Sources */,
+				CFD3448727053BB800EDDB54 /* UIColor+Extension.swift in Sources */,
+				CF6BF6302706751000500382 /* FavoritesInteractor.swift in Sources */,
+				CFD3448A2705EE5A00EDDB54 /* TVSNavigationController.swift in Sources */,
+				CF6BF6402707816900500382 /* TVShowDetailPresenter.swift in Sources */,
+				CF6BF63A27077DBB00500382 /* TVShowDetailRouter.swift in Sources */,
+				CFD3449B270611CB00EDDB54 /* APiCaller.swift in Sources */,
+				CF6BF63D27077F7300500382 /* TVShowDetailInteractor.swift in Sources */,
+				CFD34482270534DD00EDDB54 /* FavoritesViewController.swift in Sources */,
 				CFD344462704E7B300EDDB54 /* TVShows.xcdatamodeld in Sources */,
-				CFD3443E2704E7B300EDDB54 /* SceneDelegate.swift in Sources */,
+				CF6BF6472707B11800500382 /* UIView+Extension.swift in Sources */,
+				CFD3449E27061CF400EDDB54 /* TVShowsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +653,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CFD344412704E7B300EDDB54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFD344422704E7B300EDDB54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFD344492704E7B600EDDB54 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,9 +792,9 @@
 				INFOPLIST_FILE = TVShows/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +804,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,9 +820,9 @@
 				INFOPLIST_FILE = TVShows/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +832,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -628,6 +972,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFDDCBA427064CF5003307A8 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFDDCBA527064CF5003307A8 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFDDCBA427064CF5003307A8 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CFD344442704E7B300EDDB54 /* TVShows.xcdatamodeld */ = {

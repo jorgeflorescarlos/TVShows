@@ -1,0 +1,27 @@
+o Explicar la arquitectura que utilizaste en tu proyecto y la razón por la que decidiste utilizarla
+
+Proyecto TVShows
+Aquitectura: VIPER
+La arquitectura Viper permite separar los casos de negocio de los casos meramente técnicos, proporciona mayor control del código y menos dependencia entre componentes, se pueden reemplazar fácilmente partes del código que involucren conectarse a algún servicio o hacer uso de una librería de almacenamiento
+
+
+o Lista de las librerías externas que utilizaste, explicándo qué hacen y la razón por la que la elegiste
+
+Librerías usadas:
+- SDWebImage: Fue usada para almacenar en caché imágenes de portada de los programas de TV, de esta manera se evita descargar de nuevo cada vez la imagen ahorrando recursos de red.
+
+
+o Qué parte(s) de tu código pueden ser mejoradas si tuvieras más tiempo
+
+Partes del código a mejorar:
+ - La conexión a la red y renombrar el modelo de COREDATA, crear modelos genéricos para los shows de TV y hacer uso de modelos de Response para las peticiones de red.
+ - Hacer mocks para mejores pruebas unitarias
+ 
+ 
+o Cuáles fueron los mayores problemas que encontraste en el desarrollo de la práctica y cómo los resolviste?
+
+- La compatibilidad con iOS 10 requirió algunas líneas extras de código y excluir una libería de notificaciones que solo soportaba iOS 11
+
+o Si alguno de los puntos solicitados no los concluiste, menciona por qué.
+
+Por cuestiones laborales no tuve oportunidad de añadir más pruebas unitarias al proyecto ni refactorizar algunas partes
